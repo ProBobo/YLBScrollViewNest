@@ -22,7 +22,7 @@ pod 'YLBScrollViewNest'
 
 ## Author
 
-ProBobo, libo.yu@quvideo.com
+ProBobo, 564885081@qq.com
 
 ## License
 

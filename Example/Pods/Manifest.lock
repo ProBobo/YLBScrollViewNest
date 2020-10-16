@@ -1,0 +1,16 @@
+PODS:
+  - YLBScrollViewNest (0.1.0)
+
+DEPENDENCIES:
+  - YLBScrollViewNest (from `../`)
+
+EXTERNAL SOURCES:
+  YLBScrollViewNest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YLBScrollViewNest: fe2914d0347da9fc3b61bf8b81f384d0232fb5ee
+
+PODFILE CHECKSUM: 62fe4f46bd9b4568ee5804d963301648b583ac1a
+
+COCOAPODS: 1.9.1
