@@ -1,16 +1,40 @@
 PODS:
-  - YLBScrollViewNest (0.1.0)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.5.0)
+  - YLBCommon (1.0.0)
+  - YLBScrollViewNest (0.1.0):
+    - MBProgressHUD
+    - MJRefresh
+    - YLBCommon
 
 DEPENDENCIES:
+  - MBProgressHUD (= 0.9.2)
+  - MJRefresh
+  - YLBCommon (from `https://github.com/ProBobo/YLBCommon.git`)
   - YLBScrollViewNest (from `../`)
 
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+    - MJRefresh
+
 EXTERNAL SOURCES:
+  YLBCommon:
+    :git: https://github.com/ProBobo/YLBCommon.git
   YLBScrollViewNest:
     :path: "../"
 
-SPEC CHECKSUMS:
-  YLBScrollViewNest: fe2914d0347da9fc3b61bf8b81f384d0232fb5ee
+CHECKOUT OPTIONS:
+  YLBCommon:
+    :commit: cc0298d96aa28e38d521f33f5bffc4a5dca47208
+    :git: https://github.com/ProBobo/YLBCommon.git
 
-PODFILE CHECKSUM: 62fe4f46bd9b4568ee5804d963301648b583ac1a
+SPEC CHECKSUMS:
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  YLBCommon: 1da4ba715aa64444554959517eb041f3d5c5cb80
+  YLBScrollViewNest: 60de43e45c3e61c43c8f4a45a01f56e43e168489
+
+PODFILE CHECKSUM: a14c7232ec518da9a48110c4e4a6fb3772965022
 
 COCOAPODS: 1.9.1

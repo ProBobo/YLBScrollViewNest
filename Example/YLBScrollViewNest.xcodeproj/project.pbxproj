@@ -22,8 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		D82D80891507594DFD4F76B8 /* Pods_YLBScrollViewNest_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB53D66A62F4CC7B2464F805 /* Pods_YLBScrollViewNest_Example.framework */; };
-		DBBCB3AEA429D3FF9AC71237 /* Pods_YLBScrollViewNest_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 600599FE74704A71744046CF /* Pods_YLBScrollViewNest_Tests.framework */; };
+		A62FF9E1C87024F72F791D17 /* libPods-YLBScrollViewNest_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C381E8A2AF5D7F36EFD3BDB /* libPods-YLBScrollViewNest_Example.a */; };
+		BE84E4CEC5D2124545057407 /* libPods-YLBScrollViewNest_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BCA994347339F7EF830B49 /* libPods-YLBScrollViewNest_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +41,7 @@
 		1907577C61E0B058B2A63FCE /* Pods-YLBScrollViewNest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBScrollViewNest_Tests.release.xcconfig"; path = "Target Support Files/Pods-YLBScrollViewNest_Tests/Pods-YLBScrollViewNest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		26BCB92D0FA023D919615A7F /* Pods-YLBScrollViewNest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBScrollViewNest_Example.debug.xcconfig"; path = "Target Support Files/Pods-YLBScrollViewNest_Example/Pods-YLBScrollViewNest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2B28CEA390961A8A87F40C36 /* Pods-YLBScrollViewNest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBScrollViewNest_Example.release.xcconfig"; path = "Target Support Files/Pods-YLBScrollViewNest_Example/Pods-YLBScrollViewNest_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2C381E8A2AF5D7F36EFD3BDB /* libPods-YLBScrollViewNest_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YLBScrollViewNest_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* YLBScrollViewNest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLBScrollViewNest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,14 +60,13 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
-		600599FE74704A71744046CF /* Pods_YLBScrollViewNest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLBScrollViewNest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		66105E8749D5D725BC33C8A9 /* YLBScrollViewNest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YLBScrollViewNest.podspec; path = ../YLBScrollViewNest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6D47A59539523500BE942E23 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6E9098E192914BEA7A1375C8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BB53D66A62F4CC7B2464F805 /* Pods_YLBScrollViewNest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLBScrollViewNest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BCA994347339F7EF830B49 /* libPods-YLBScrollViewNest_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YLBScrollViewNest_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				D82D80891507594DFD4F76B8 /* Pods_YLBScrollViewNest_Example.framework in Frameworks */,
+				A62FF9E1C87024F72F791D17 /* libPods-YLBScrollViewNest_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				DBBCB3AEA429D3FF9AC71237 /* Pods_YLBScrollViewNest_Tests.framework in Frameworks */,
+				BE84E4CEC5D2124545057407 /* libPods-YLBScrollViewNest_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				BB53D66A62F4CC7B2464F805 /* Pods_YLBScrollViewNest_Example.framework */,
-				600599FE74704A71744046CF /* Pods_YLBScrollViewNest_Tests.framework */,
+				2C381E8A2AF5D7F36EFD3BDB /* libPods-YLBScrollViewNest_Example.a */,
+				F6BCA994347339F7EF830B49 /* libPods-YLBScrollViewNest_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				A53C3C303E821A3E0CA6D503 /* [CP] Embed Pods Frameworks */,
+				134889A84FF4BDCF60B4D802 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = ProBobo;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = M6Z7C5C7K3;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -317,22 +320,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A53C3C303E821A3E0CA6D503 /* [CP] Embed Pods Frameworks */ = {
+		134889A84FF4BDCF60B4D802 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YLBScrollViewNest_Example/Pods-YLBScrollViewNest_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/YLBScrollViewNest/YLBScrollViewNest.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-YLBScrollViewNest_Example/Pods-YLBScrollViewNest_Example-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YLBScrollViewNest.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YLBScrollViewNest_Example/Pods-YLBScrollViewNest_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YLBScrollViewNest_Example/Pods-YLBScrollViewNest_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BBEE5EF1F374E49D3E642722 /* [CP] Check Pods Manifest.lock */ = {
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 26BCB92D0FA023D919615A7F /* Pods-YLBScrollViewNest_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M6Z7C5C7K3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YLBScrollViewNest/YLBScrollViewNest-Prefix.pch";
 				INFOPLIST_FILE = "YLBScrollViewNest/YLBScrollViewNest-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 2B28CEA390961A8A87F40C36 /* Pods-YLBScrollViewNest_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M6Z7C5C7K3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YLBScrollViewNest/YLBScrollViewNest-Prefix.pch";
 				INFOPLIST_FILE = "YLBScrollViewNest/YLBScrollViewNest-Info.plist";

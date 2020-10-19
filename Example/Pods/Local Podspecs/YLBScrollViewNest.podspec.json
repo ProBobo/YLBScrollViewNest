@@ -1,7 +1,7 @@
 {
   "name": "YLBScrollViewNest",
   "version": "0.1.0",
-  "summary": "A short description of YLBScrollViewNest.",
+  "summary": "YLBScrollViewNest.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/ProBobo/YLBScrollViewNest",
   "license": {
@@ -9,7 +9,7 @@
     "file": "LICENSE"
   },
   "authors": {
-    "ProBobo": "libo.yu@quvideo.com"
+    "ProBobo": "564885081@qq.com"
   },
   "source": {
     "git": "https://github.com/ProBobo/YLBScrollViewNest.git",
@@ -18,5 +18,16 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YLBScrollViewNest/Classes/**/*"
+  "source_files": "YLBScrollViewNest/Classes/**/*",
+  "dependencies": {
+    "YLBCommon": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "MBProgressHUD": [
+
+    ]
+  }
 }
