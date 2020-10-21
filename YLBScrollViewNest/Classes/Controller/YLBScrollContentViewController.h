@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL isRefresh;
 @property (nonatomic, strong) NSString *str;
 
+- (instancetype)initWithCollectionViewFrame:(CGRect)collectionFrame;
 @end
 
 NS_ASSUME_NONNULL_END

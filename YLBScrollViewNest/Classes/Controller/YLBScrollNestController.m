@@ -144,7 +144,7 @@ static NSString * const YLBLishSaltFishBottomViewTCellId = @"YLBLishSaltFishBott
             _contentCell = [[YLBScrollNestBottomViewTCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:YLBLishSaltFishBottomViewTCellId];
             NSMutableArray *contentVCs = [NSMutableArray array];
             for (NSString *title in self.titlesArrM) {
-                YLBScrollContentViewController *vc = [[YLBScrollContentViewController alloc] init];
+                YLBScrollContentViewController *vc = [[YLBScrollContentViewController alloc] initWithCollectionViewFrame:CGRectMake(0, 0, YLB_SCREEN_WIDTH, YLB_SCREEN_HEIGHT - 40)];
                 vc.title = title;
                 vc.str = title;
                 [contentVCs addObject:vc];

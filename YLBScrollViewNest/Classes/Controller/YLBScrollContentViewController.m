@@ -15,12 +15,21 @@ NSString * const YLBMineLeaveTopNotification = @"YLBMineLeaveTopNotification";
 @interface YLBScrollContentViewController () <UICollectionViewDelegate,UICollectionViewDataSource> 
 
 @property (nonatomic, assign) BOOL fingerIsTouch;
+@property(nonatomic, assign) CGRect collectionFrame;
 
 @end
 
 static NSString * const YLBScrollContentViewTCellId = @"YLBScrollContentViewTCellId";
 
 @implementation YLBScrollContentViewController
+
+- (instancetype)initWithCollectionViewFrame:(CGRect)collectionFrame {
+    self = [super init];
+    if (self) {
+        self.collectionFrame = collectionFrame;
+    }
+    return self;
+}
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
@@ -43,7 +52,7 @@ static NSString * const YLBScrollContentViewTCellId = @"YLBScrollContentViewTCel
     // 设置滚动方向
     layout.scrollDirection = UICollectionViewScrollDirectionVertical;
     
-    _collectionView = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 0, YLB_SCREEN_WIDTH, YLB_SCREEN_HEIGHT - 40) collectionViewLayout:layout];
+    _collectionView = [[UICollectionView alloc]initWithFrame:self.collectionFrame collectionViewLayout:layout];
     // 指定代理
     _collectionView.delegate = self;
     // 指定数据源代理
