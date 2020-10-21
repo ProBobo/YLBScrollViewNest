@@ -245,7 +245,7 @@
 		4E0AC9B4A8F6C4F8A98B41922A652EE2 /* YLBBaseCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YLBBaseCollectionViewCell.m; sourceTree = "<group>"; };
 		4E3949439214D47255F28EE6B8847EDA /* YLBScrollContentViewTCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YLBScrollContentViewTCell.m; sourceTree = "<group>"; };
 		4FD3D1F73F2B2C297313CF61656C0AD0 /* UIImage+YLBSystemShareToWX.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+YLBSystemShareToWX.m"; path = "YLBCommon/Classes/Image/UIImage+YLBSystemShareToWX.m"; sourceTree = "<group>"; };
-		504180560A14D4896E3AF5D2CE58425A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		504180560A14D4896E3AF5D2CE58425A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5431128AEDAEE3B91B131409D2F3335F /* YLBBaseCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YLBBaseCollectionViewCell.h; sourceTree = "<group>"; };
 		579D65E3ED92EBE213A24AC2946CCFB1 /* NSString+YLBAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+YLBAttribute.h"; path = "YLBCommon/Classes/String/NSString+YLBAttribute.h"; sourceTree = "<group>"; };
 		57CA51DA51F13A8BF18304236786DC21 /* NSString+YLBVersion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+YLBVersion.m"; path = "YLBCommon/Classes/String/NSString+YLBVersion.m"; sourceTree = "<group>"; };
@@ -271,16 +271,16 @@
 		7925DF4C83A9AE185BBD06C45CB0B414 /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
 		7A52031AD22A234BD94CAAE9C7A428C6 /* YLBBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YLBBaseViewController.m; sourceTree = "<group>"; };
 		7ABFA3111A4FC4FB93147DE72B5745E1 /* YLBBaseTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLBBaseTableViewController.m; path = YLBCommon/Classes/TableView/YLBBaseTableViewController.m; sourceTree = "<group>"; };
-		7BC15757A5138BD9BBBE819F133718FE /* YLBScrollViewNest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YLBScrollViewNest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7BC15757A5138BD9BBBE819F133718FE /* YLBScrollViewNest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YLBScrollViewNest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7C940F8280EDA0F5570CD2FD7DF4A02F /* UIView+YLBCorner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+YLBCorner.h"; path = "YLBCommon/Classes/View/UIView+YLBCorner.h"; sourceTree = "<group>"; };
 		7F3958FC32942E512B575418615041C8 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		800703514755993B5649F47342E145E4 /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MJRefresh.h"; path = "MJRefresh/NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
 		82C406DD25D5F164B5B110BF2924F492 /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = MJRefresh/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
 		84BDE1E03D33E3FA790FDB9B5A8EF4D9 /* YLBScrollContentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YLBScrollContentViewController.h; sourceTree = "<group>"; };
 		88448F6D1C80F8F6BD97BBB6AE91AD15 /* YLBScrollViewNest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLBScrollViewNest.debug.xcconfig; sourceTree = "<group>"; };
-		8B8FAB0D627B17EDE1366984278705D9 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMBProgressHUD.a; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C8F85DFF9FAC46079CDD4C54CBE42E3 /* libPods-YLBScrollViewNest_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YLBScrollViewNest_Example.a"; path = "libPods-YLBScrollViewNest_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E1A22623E7CE799D8B3CBAFB4120275 /* libYLBScrollViewNest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYLBScrollViewNest.a; path = libYLBScrollViewNest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8FAB0D627B17EDE1366984278705D9 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8F85DFF9FAC46079CDD4C54CBE42E3 /* libPods-YLBScrollViewNest_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YLBScrollViewNest_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1A22623E7CE799D8B3CBAFB4120275 /* libYLBScrollViewNest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYLBScrollViewNest.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		90A157CE3E3C3EEDE2268A067EE4DEED /* YLBAnimationDelegateManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLBAnimationDelegateManager.h; path = YLBCommon/Classes/Animation/YLBAnimationDelegateManager.h; sourceTree = "<group>"; };
 		931EED075EDCBAB215FDD72A1FE540C8 /* YLBFrequeControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLBFrequeControl.h; path = YLBCommon/Classes/Frequent/YLBFrequeControl.h; sourceTree = "<group>"; };
 		93D2E6279FDAC33663CB745E05EB5D19 /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
@@ -289,7 +289,7 @@
 		996C64C65EA2F4388CA47D9A277F0870 /* YLBPageContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YLBPageContentView.h; sourceTree = "<group>"; };
 		9B7CB1E87FB45D36D5E65D78E6C4DB83 /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoStateFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
 		9D6E6A549A4AD6D266A81949A3FB175A /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DEE64C13D99739B6D5BAD03E4E8AA1C /* YLBScrollNestBottomViewTCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YLBScrollNestBottomViewTCell.m; sourceTree = "<group>"; };
 		9FDB0E3EB5B533BA48E169D35BA95610 /* YLBBundleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLBBundleManager.h; path = YLBCommon/Classes/Manager/YLBBundleManager.h; sourceTree = "<group>"; };
 		A1F601F68B5FE39A14F0CE89ABD91F1A /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateHeader.m; path = MJRefresh/Custom/Header/MJRefreshStateHeader.m; sourceTree = "<group>"; };
@@ -306,12 +306,12 @@
 		B3B3B1AD9CDFC6FFC97906A1668D52AA /* YLBBaseTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YLBBaseTableViewCell.h; sourceTree = "<group>"; };
 		B44966DBB9B4553AA22CD82ADD4A7CE4 /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
 		B6945B5623A57E10396E4B5790F67DC5 /* MJRefreshNormalTrailer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalTrailer.h; path = MJRefresh/Custom/Trailer/MJRefreshNormalTrailer.h; sourceTree = "<group>"; };
-		B70F6CF95AED64DDB82CB51E356115A5 /* libPods-YLBScrollViewNest_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YLBScrollViewNest_Tests.a"; path = "libPods-YLBScrollViewNest_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70F6CF95AED64DDB82CB51E356115A5 /* libPods-YLBScrollViewNest_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YLBScrollViewNest_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7CC36385C39BB30FAA9F1C0AC210D21 /* NSString+YLBAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+YLBAttribute.m"; path = "YLBCommon/Classes/String/NSString+YLBAttribute.m"; sourceTree = "<group>"; };
 		BD2F9F1FEE19370C9443C0B403893A70 /* MJRefresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.debug.xcconfig; sourceTree = "<group>"; };
 		BF132C3F9B7F089ECA21513C2D0B634E /* YLBCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLBCommon.h; path = YLBCommon/Classes/YLBCommon.h; sourceTree = "<group>"; };
 		C1E739845B3F4079A07A1365808F8FC0 /* YLBScrollNestBottomViewTCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YLBScrollNestBottomViewTCell.h; sourceTree = "<group>"; };
-		C4A447438CBE06DFC624E38F59356096 /* libYLBCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYLBCommon.a; path = libYLBCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A447438CBE06DFC624E38F59356096 /* libYLBCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYLBCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E3D13B4630312574ED81A9E01531F9 /* YLBSegmentTitleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YLBSegmentTitleView.m; sourceTree = "<group>"; };
 		C7B03D545592B0AA93C12DD7FDFE4F4D /* UIScrollView+YLBAdjustment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+YLBAdjustment.m"; path = "YLBCommon/Classes/ScrollView/UIScrollView+YLBAdjustment.m"; sourceTree = "<group>"; };
 		C7B079559D00A234B894523DA0AE43E4 /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
@@ -326,7 +326,7 @@
 		DC76297E4006D9BF5534679E61D6CE16 /* UIImage+YLBColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+YLBColor.m"; path = "YLBCommon/Classes/Image/UIImage+YLBColor.m"; sourceTree = "<group>"; };
 		DEB994E08A5787E5B357369602444CBE /* UIColor+YLBColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+YLBColor.h"; path = "YLBCommon/Classes/Color/UIColor+YLBColor.h"; sourceTree = "<group>"; };
 		E12E2CDB3F2EF17865243A5F32621AFE /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackStateFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
-		E49D6D248DD1CEE584E6776B9164A1B2 /* libMJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMJRefresh.a; path = libMJRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49D6D248DD1CEE584E6776B9164A1B2 /* libMJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMJRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4DD4B50AB9D1C75C111E852ABADED74 /* YLBCommon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLBCommon-dummy.m"; sourceTree = "<group>"; };
 		E5CB0ACE1AD0E616D3A13C127F653AFA /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
 		E6F521834F219F7EE572CC162ACD16B4 /* YLBUnCopyTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLBUnCopyTextField.m; path = YLBCommon/Classes/TextField/YLBUnCopyTextField.m; sourceTree = "<group>"; };
@@ -346,7 +346,7 @@
 		F8308EA8EE4435620B380781668CAC15 /* UIImage+YLBSystemShareToWX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+YLBSystemShareToWX.h"; path = "YLBCommon/Classes/Image/UIImage+YLBSystemShareToWX.h"; sourceTree = "<group>"; };
 		F8F826B74EDC065B1CEBAD837B2AC5AD /* Pods-YLBScrollViewNest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLBScrollViewNest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FB38CAC391F246E993B082D168CAF2AE /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
-		FC21F5AA5A11371826DB24F259B93175 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FC21F5AA5A11371826DB24F259B93175 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FC34A6DDD0BE396EACCD51874752C933 /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
 		FD699881C53B95E591DCC76661DC7B16 /* UIView+YLBColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+YLBColor.m"; path = "YLBCommon/Classes/View/UIView+YLBColor.m"; sourceTree = "<group>"; };
 		FDABD2A3B310A4E4FF5C6C37044BCB98 /* UIColor+YLBColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+YLBColor.m"; path = "YLBCommon/Classes/Color/UIColor+YLBColor.m"; sourceTree = "<group>"; };
@@ -471,7 +471,6 @@
 				0812F1CAA821BA1255702CB2D0DC1FC8 /* YLBWhiteController.m */,
 				7333BDCF63716E1A3447ED06A47DAFA5 /* Support Files */,
 			);
-			name = YLBCommon;
 			path = YLBCommon;
 			sourceTree = "<group>";
 		};
@@ -552,7 +551,6 @@
 				DD116C26DAE0032D2D50F74B80800A26 /* Resources */,
 				8E471F40D854D7A3A4261B5E02321824 /* Support Files */,
 			);
-			name = MJRefresh;
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
@@ -673,7 +671,6 @@
 				1DEBCB5E2B21C7D615B2A0C86207882B /* MBProgressHUD.m */,
 				CB16A34E107493791B340F6677F54EEB /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -1384,8 +1381,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

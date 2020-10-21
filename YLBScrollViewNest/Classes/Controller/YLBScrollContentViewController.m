@@ -55,6 +55,8 @@ static NSString * const YLBScrollContentViewTCellId = @"YLBScrollContentViewTCel
     [_collectionView registerClass:[YLBScrollContentViewTCell class] forCellWithReuseIdentifier:YLBScrollContentViewTCellId];
     [self.view addSubview:_collectionView];
     
+    [_collectionView stopAdjustmentWithScrollView:_collectionView controller:self];
+    
 }
 
 

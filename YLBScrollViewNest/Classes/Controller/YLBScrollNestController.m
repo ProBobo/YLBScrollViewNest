@@ -150,7 +150,7 @@ static NSString * const YLBLishSaltFishBottomViewTCellId = @"YLBLishSaltFishBott
                 [contentVCs addObject:vc];
             }
             _contentCell.viewControllers = contentVCs;
-            _contentCell.pageContentView = [[YLBPageContentView alloc]initWithFrame:CGRectMake(0, 0, YLB_SCREEN_WIDTH, YLB_SCREEN_HEIGHT - 40) childVCs:contentVCs parentVC:self delegate:self];
+            _contentCell.pageContentView = [[YLBPageContentView alloc] initWithFrame:CGRectMake(0, 0, YLB_SCREEN_WIDTH, YLB_SCREEN_HEIGHT - 40) childVCs:contentVCs parentVC:self delegate:self];
             [_contentCell.contentView addSubview:_contentCell.pageContentView];
         }
         return _contentCell;
