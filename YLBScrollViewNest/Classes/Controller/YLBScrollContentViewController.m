@@ -9,8 +9,7 @@
 #import "YLBScrollContentViewTCell.h"
 #import <YLBCommon/YLBCommon.h>
 #import <MJRefresh/MJRefresh.h>
-
-NSString * const YLBMineLeaveTopNotification = @"YLBMineLeaveTopNotification";
+#import "YLBScrollContentConst.h"
 
 @interface YLBScrollContentViewController () <UICollectionViewDelegate,UICollectionViewDataSource> 
 
