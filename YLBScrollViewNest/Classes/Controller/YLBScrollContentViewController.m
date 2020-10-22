@@ -61,6 +61,8 @@ static NSString * const YLBScrollContentViewTCellId = @"YLBScrollContentViewTCel
     
     // 添加到当前视图上显示
     _collectionView.backgroundColor = YLBHexColor(0xeeeeee);//[UIColor colorWithHexCode:@"#eeeeee"];
+    _collectionView.showsVerticalScrollIndicator = NO;
+    _collectionView.showsHorizontalScrollIndicator = NO;
     [_collectionView registerClass:[YLBScrollContentViewTCell class] forCellWithReuseIdentifier:YLBScrollContentViewTCellId];
     [self.view addSubview:_collectionView];
     
@@ -185,7 +187,7 @@ static NSString * const YLBScrollContentViewTCellId = @"YLBScrollContentViewTCel
         scrollView.contentOffset = CGPointZero;
         [[NSNotificationCenter defaultCenter] postNotificationName:YLBMineLeaveTopNotification object:nil];//到顶通知父视图改变状态
     }
-    self.collectionView.showsVerticalScrollIndicator = _vcCanScroll ? YES : NO;
+//    self.collectionView.showsVerticalScrollIndicator = _vcCanScroll ? YES : NO;
 }
 
 @end

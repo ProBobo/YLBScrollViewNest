@@ -47,6 +47,8 @@ static NSString * const YLBLishSaltFishBottomViewTCellId = @"YLBLishSaltFishBott
         _tableView.dataSource = self;
         _tableView.backgroundColor = [UIColor whiteColor];
         [_tableView registerClass:[YLBScrollNestTopCell class] forCellReuseIdentifier:YLBScrollNestTopCellId];
+        _tableView.showsHorizontalScrollIndicator = NO;
+        _tableView.showsVerticalScrollIndicator = NO;
         //        _tableView.bounces = NO;
         [_tableView stopAdjustmentWithScrollView:_tableView controller:self];
     }
@@ -196,7 +198,7 @@ static NSString * const YLBLishSaltFishBottomViewTCellId = @"YLBLishSaltFishBott
             scrollView.contentOffset = CGPointMake(0, bottomCellOffset);
         }
     }
-    self.tableView.showsVerticalScrollIndicator = _canScroll?YES:NO;
+//    self.tableView.showsVerticalScrollIndicator = _canScroll?YES:NO;
 }
 
 
